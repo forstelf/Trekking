@@ -1,0 +1,425 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.header-container a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 63px;
+    padding: 1px 6px;
+
+}
+
+.header-container a:hover {
+    background: #b2b379;
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+ul {
+    display: flex;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+.top-slide {
+    background: url(./img/Livello_1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.top-container {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 359px;
+    padding-bottom: 500px;
+}
+
+.top-slide h1 {
+    display: inline;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 500;
+    padding: 0 352px;
+}
+
+/* .top-slide :nth-child(2) {
+    margin-bottom: 10px;
+} */
+
+.top-slide p {
+    display: inline;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 159px;
+}
+
+.top-check {
+    background: #f5f6f7;
+    padding: 60px 96px;
+}
+
+.siting {
+    display: inline-flex;
+}
+
+input[type=checkbox]+label {
+    display: inline;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]+label:before {
+    content: "\2714";
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    display: inline;
+    padding-left: 5px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    margin-right: 10px;
+    margin-left: 40px;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+}
+
+input[type=checkbox]:checked+label:before {
+    background-color: #fff;
+    border-color: #aa9b77;
+    color: #aa9b77;
+}
+
+input[type=checkbox]+label:active:before {
+    transform: scale(0);
+}
+
+.button {
+    padding-left: 715px;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #aa9b77;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+.button a:hover {
+    background-color: #817350;
+}
+
+.people {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.human {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-top-style: solid;
+    border-top-width: thin;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+
+.pricing-table {
+    display: inline-flex;
+    margin-left: 250px;
+}
+
+.table {
+    width: 320px;
+    height: 378px;
+    background-color: #f5f6f7;
+}
+
+.clothes {
+    display: block;
+    margin: 0 auto;
+}
+
+.space {
+    margin: 60px;
+    padding: 10px 0;
+    border-radius: 3px;
+    border: 6px solid #aa9b77;
+    background-color: #f5f6f7;
+}
+
+.letter {
+    color: #aa9b77;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.price {
+    color: #424242;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.liner {
+    display: inline-flex;
+}
+
+.tshirt {
+    padding-top: 68px;
+    padding-left: 25px;
+}
+
+.price-t {
+    padding-top: 65px;
+    padding-left: 145px;
+}
+
+.pants {
+    padding-top: 26px;
+    padding-left: 25px;
+}
+
+.price-p {
+    padding-top: 23px;
+    padding-left: 55px;
+}
+
+.backpack {
+    padding-top: 46px;
+    padding-left: 25px;
+}
+
+.price-b {
+    padding-top: 45px;
+    padding-left: 105px;
+}
+
+.giacket {
+    padding-top: 42px;
+    padding-left: 25px;
+}
+
+.price-g {
+    padding-top: 42px;
+    padding-left: 120px;
+}
+
+.boots {
+    padding-top: 41px;
+}
+
+.tshoes {
+    padding-top: 80px;
+    padding-left: 25px;
+}
+
+.price-s {
+    padding-top: 78px;
+    padding-left: 50px;
+}
+
+.shirt {
+    padding-top: 29px;
+    padding-left: 25px;
+}
+
+.price-sh {
+    padding-top: 26px;
+    padding-left: 133px;
+}
+
+.about {
+    background-color: #aa9b77;
+}
+
+.about-lorem {
+    text-align: center;
+    padding: 116px 600px;
+}
+
+h3 {
+    color: #837659;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 21px;
+    padding-bottom: 65px;
+}
+
+.lor {
+    color: #424242;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.outline {
+    border: 2px solid #918363;
+    padding-bottom: 89px;
+}
+
+.nettw {
+    background-color: #535253;
+}
+
+.tw {
+    width: 29px;
+    height: 24px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    padding-left: 64px;
+}
+
+
+.psd {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    padding-left: 20px;
+}
+
+
+footer {
+    background-color: #424242;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h6 {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+h5 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+h5 a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 10px;
+}
+
+.left {
+    padding-top: 100px;
+    padding-bottom: 116px;
+    padding-left: 67px;
+}
+
+.right {
+    padding-top: 135px;
+    padding-left: 1090px;
+}
+
+.design {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 420px) {
+    .header-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .main-menu li {
+        width: 100%;
+        display: block;
+        font-size: 12px;
+    }
+
+    .main-menu a {
+        display: block;
+        padding: 8px;
+    }
+
+    .toggle-button {
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        color: #000;
+        /* margin-top: 20px; */
+    }
+
+    .toggle-button:after {
+        content: attr(data-open);
+        display: block;
+    }
+
+    #menu-checkbox:checked+nav[role="navigation"] .main-menu {
+        display: block;
+    }
+
+    #menu-checkbox:checked+nav[role="navigation"] .toggle-button::after {
+        content: attr(data-close);
+    }
+
+    .header-container a {
+        margin-right: -65px;
+    }
+
+    .main-menu {
+        position: relative;
+        top: 30px;
+        right: 115px;
+    }
+}
